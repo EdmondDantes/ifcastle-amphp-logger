@@ -19,19 +19,9 @@
             "IfCastle\\Amphp\\Logger\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "IfCastle\\Amphp\\Logger\\": "./tests"
-        }
-    },
     "require": {
         "ifcastle/application": "^0.6.0",
         "monolog/monolog": "^3.7",
-        "ifcastle/exceptions": "^5.0",
         "amphp/log": "^2.0"
-    },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.60",
-        "amphp/php-cs-fixer-config": "^2.1"
     }
 }
